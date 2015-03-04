@@ -1,0 +1,55 @@
+body{
+	background-color: #101010
+}
+
+#wrapper{
+	width: 640px;
+	margin: 10px auto;
+}
+
+nav{
+	background-color: rgb(250,250,250);
+	width: 640px;
+	padding-bottom: 3px;
+}
+
+#defaultBar{
+	width: 640px;
+	position: relative;
+	background-color: #606060;
+	height: 10px;
+}
+
+#processBar{
+	position: absolute;
+	height: 10px;
+	background-color: #3498db;
+	width: 0px;
+}
+
+#playButton{
+	background-color: rgb(250,250,250);
+	border: 0;
+	height: 32px;
+	width: 32px;
+	background-image: url(img/play.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding:0px;
+}
+
+#muteButton{
+	background-color: rgb(250,250,250);
+	border: none;
+	height: 32px;
+	width: 32px;
+	background-image: url(img/mute.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding:0px;
+}
+
+#playButton:active,#muteButton:active{
+	position: relative;
+	top: 2px;
+}

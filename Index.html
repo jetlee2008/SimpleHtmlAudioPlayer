@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Custom Audio Player</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	
+</head>
+<body>
+	<div id="wrapper">
+		<audio id="mytrack" src="audio/audio.mp3" type="audio/mp3" controls>
+		</audio>
+		<nav>
+			<div id="defaultBar">
+				<div id="processBar"></div>
+			</div>
+			<div id="button">
+				<button type="button" id="playButton"></button>
+				<button type="button" id="muteButton"></button>
+				<span id="currentTime">0:00 </span>
+				/<span id="fullTime">0:00 </span>
+			</div>
+		</nav>
+	</div>
+</body>
+<script type="text/javascript" src="control.js"></script>
+</html>
